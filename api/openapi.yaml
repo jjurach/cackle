@@ -1,0 +1,56 @@
+openapi: 3.0.0
+info:
+  title: Cackle API
+  version: 1.0.0
+  description: API for the Cackle voice-driven chat application.
+
+paths:
+  /api/v1/chat/completions:
+    post:
+      summary: Create a chat completion
+      operationId: createChatCompletion
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatCompletionRequest'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatCompletionResponse'
+
+components:
+  schemas:
+    ChatMessage:
+      type: object
+      required:
+        - role
+        - content
+      properties:
+        role:
+          type: string
+          enum: [user, assistant]
+        content:
+          type: string
+
+    ChatCompletionRequest:
+      type: object
+      required:
+        - messages
+      properties:
+        messages:
+          type: array
+          items:
+            $ref: '#/components/schemas/ChatMessage'
+
+    ChatCompletionResponse:
+      type: object
+      required:
+        - message
+      properties:
+        message:
+          $ref: '#/components/schemas/ChatMessage'
