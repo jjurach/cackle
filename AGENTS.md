@@ -37,10 +37,11 @@
 
 **MANDATORY:** Use this guide to locate project components.
 
-- **`frontend/`**: Flutter App. Run with `cd frontend && flutter run`.
+- **`frontends/mobile/`**: Flutter App for iOS and Android. Run with `cd frontends/mobile && flutter run`.
+- **`frontends/web/`**: React/Next.js App for the web client. Run with `cd frontends/web && npm run dev`.
 - **`backend/`**: Python FastAPI Service. Run with `cd backend && uvicorn app.main:app --reload`.
 - **`infrastructure/`**: Terraform for AWS ECS deployment.
-- **`api/openapi.yaml`**: **The API's single source of truth.** Changes here are critical and must be planned carefully as they impact both frontend and backend.
+- **`api/openapi.yaml`**: **The API's single source of truth.** Changes here are critical and must be planned carefully as they impact all frontends and the backend.
 - **`docs/`**: Detailed documentation (architecture, conventions, full templates).
 - **`dev_notes/`**: All AI-generated Project Plans and Change Documentation.
 

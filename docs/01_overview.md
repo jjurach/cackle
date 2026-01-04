@@ -2,19 +2,14 @@
 
 ## 1.1. Core Objective
 
-The Cackle project is a mobile application designed to capture a user's voice, transcribe it into text, and provide a response from a backend service. The core interaction loop is:
-1.  User presses a button to start recording.
-2.  The application listens and automatically detects when the user has paused speaking.
-3.  The captured audio is transcribed into text directly on the mobile device.
-4.  The transcribed text is sent to a backend service.
-5.  The backend service processes the text and returns a response.
-6.  The mobile application displays the response to the user.
+The Cackle project provides a voice-driven chat interface across both mobile and web platforms. It is designed to capture a user's voice, transcribe it into text, and provide a response from a backend service.
 
 ## 1.2. Technology Stack
 
 This project uses a modern, cross-platform stack:
 
 - **Frontend (Mobile):** Flutter (Dart)
+- **Frontend (Web):** React (Next.js)
 - **Backend Service:** Python with the FastAPI framework.
 - **Infrastructure:** Terraform for Infrastructure as Code.
 - **Cloud Provider:** Amazon Web Services (AWS), specifically targeting ECS for deployment.
@@ -24,7 +19,8 @@ This project uses a modern, cross-platform stack:
 
 The project is organized as a monorepo to keep all related components in a single repository.
 
-- **`/frontend/`**: The Flutter mobile application.
+- **`/frontends/mobile/`**: The Flutter mobile application for iOS and Android.
+- **`/frontends/web/`**: The React (Next.js) web application.
 - **`/backend/`**: The Python FastAPI backend service.
 - **`/infrastructure/`**: Terraform code for AWS deployment.
 - **`/api/`**: The master OpenAPI specification (`openapi.yaml`).
