@@ -1,25 +1,25 @@
 # Documentation Templates
 
-This file contains the full, unabridged templates to be used for all project planning and change documentation, as mandated by `AGENTS.md`.
+This file contains the full templates to be used for all Project Plans and Change Documentation, as mandated by `AGENTS.md`. Fields marked with **(Optional)** may be omitted if not applicable.
 
 ---
 
 ## Project Plan Template
 
-**AI AGENT INSTRUCTIONS:** Use this template for ALL project plans. Be thorough and specific.
+**AI AGENT INSTRUCTIONS:** Use this template for ALL Project Plans. Be thorough and specific.
 
 ```markdown
 # Project Plan: [Project Name]
 
 **Date:** YYYY-MM-DD HH:MM:SS
-**Estimated Duration:** [X hours/days]
-**Complexity:** [Low/Medium/High]
-**Status:** [Draft/Approved/In Progress/Completed/Cancelled]
+**Estimated Duration:** [X hours/days] **(Optional)**
+**Complexity:** [Low/Medium/High] **(Optional)**
+**Status:** [Draft/Approved/In Progress/Completed/Cancelled] **(Optional)**
 
 ## Objective
 A clear, one-sentence statement of what needs to be accomplished and why.
 
-## Requirements
+## Requirements **(Optional)**
 A checklist of functional and non-functional requirements that must be met for the project to be considered complete.
 - [ ] Requirement 1: ...
 - [ ] Requirement 2: ...
@@ -30,9 +30,9 @@ A detailed, step-by-step breakdown of the work to be done. Each step should be a
 1.  **Step 1:** [Description of the step]
     -   **Files to Modify:** `path/to/file.ext`
     -   **Files to Create:** `path/to/new_file.ext`
-    -   **Dependencies:** [List any dependencies for this step]
-    -   **Estimated Time:** [X hours]
-    -   **Status:** [ ] Not Started / [ ] In Progress / [ ] Completed
+    -   **Dependencies:** [List any dependencies for this step] **(Optional)**
+    -   **Estimated Time:** [X hours] **(Optional)**
+    -   **Status:** [ ] Not Started / [ ] In Progress / [ ] Completed **(Optional)**
 
 2.  **Step 2:** [Description of the step]
     -   ...
@@ -55,7 +55,7 @@ Potential risks and a plan to mitigate them.
 - **Medium Risk:** [Description of risk and mitigation plan.]
 - **Low Risk:** [Description of risk and mitigation plan.]
 
-## Notes
+## Notes **(Optional)**
 Any additional context, assumptions, or future considerations that are relevant to the plan.
 ```
 
@@ -63,14 +63,14 @@ Any additional context, assumptions, or future considerations that are relevant 
 
 ## Change Documentation Template
 
-**AI AGENT INSTRUCTIONS:** Use this template for ALL non-trivial changes. Fill in ALL sections.
+**AI AGENT INSTRUCTIONS:** Use this template for ALL non-trivial changes. Fill in required sections; optional sections may be omitted if not applicable.
 
 ```markdown
 # Change: [Brief, Descriptive Title of the Change]
 
 **Date:** YYYY-MM-DD HH:MM:SS
-**Type:** [Feature/Enhancement/Bug Fix/Refactor/Documentation]
-**Status:** [Completed]
+**Type:** [Feature/Enhancement/Bug Fix/Refactor/Documentation] **(Optional)**
+**Status:** [Completed] **(Optional)**
 **Related Project Plan:** `dev_notes/project_plans/YYYY-MM-DD_HH-MM-SS_project-name.md`
 
 ## Overview
@@ -81,7 +81,7 @@ A list of all files that were created or modified as part of this change.
 - `path/to/file1.ext` - Description of changes made to this file.
 - `path/to/file2.ext` - Description of changes made to this file.
 
-## Code Changes (If Applicable)
+## Code Changes **(Optional)**
 For significant or complex changes, include code snippets showing the change.
 
 ### Before
@@ -105,6 +105,6 @@ An analysis of the change's potential impact on the broader system.
 - **Dependencies Affected:** [List any other components that rely on this change.]
 - **Performance Impact:** [None/Minor/Major] - Explain if applicable.
 
-## Notes
+## Notes **(Optional)**
 Any additional context, decisions made during implementation, or considerations for future work.
 ```

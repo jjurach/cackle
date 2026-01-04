@@ -29,7 +29,7 @@ The project is organized as a monorepo to keep all related components in a singl
 - **`/infrastructure/`**: Terraform code for AWS deployment.
 - **`/api/`**: The master OpenAPI specification (`openapi.yaml`).
 - **`/docs/`**: Detailed project documentation (this file and others).
-- **`/dev_notes/`**: Directory for AI-generated project plans and change logs, following the rules in `AGENTS.md`.
+- **`/dev_notes/`**: Directory for AI-generated Project Plans and Change Documentation, following the rules in `AGENTS.md`.
 
 ## 1.4. Development Philosophy
 
@@ -39,7 +39,7 @@ The project is organized as a monorepo to keep all related components in a singl
 
 ## 1.5. Trivial Changes
 
-As defined in `AGENTS.md`, a "Trivial Change" is a non-functional modification that does not alter the logic or behavior of the application. These changes do not require a full project plan.
+As defined in `AGENTS.md`, a "Trivial Change" is a non-functional modification that does not alter the logic or behavior of the application. These changes do not require a Project Plan.
 
 **Examples of Trivial Changes:**
 - Correcting spelling errors in comments or non-user-facing text.
