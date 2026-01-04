@@ -1,0 +1,39 @@
+# General
+.DS_Store
+Thumbs.db
+/GEMINI.md
+/tmp
+
+# Python
+/backend/venv/
+/backend/__pycache__/
+*.py[cod]
+*$py.class
+
+# Flutter
+/frontends/mobile/.dart_tool/
+/frontends/mobile/.flutter-plugins
+/frontends/mobile/.flutter-plugins-dependencies
+/frontends/mobile/build/
+/frontends/mobile/.pub-cache/
+/frontends/mobile/.pub/
+
+# Node.js / Next.js
+/frontends/web/node_modules/
+/frontends/web/.next/
+/frontends/web/npm-debug.log*
+/frontends/web/yarn-debug.log*
+/frontends/web/yarn-error.log*
+/frontends/web/.env.local
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
