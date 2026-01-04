@@ -21,8 +21,8 @@ Ensure you have the Flutter SDK installed and configured on your system. Refer t
 Install all required packages from `pubspec.yaml`.
 
 ```bash
-# From the project root, navigate to the frontend directory
-cd frontend
+# From the project root, navigate to the mobile frontend directory
+cd frontends/mobile
 
 # Get all dependencies
 flutter pub get
@@ -39,9 +39,9 @@ flutter run
 ## 4.3. Key Concepts & Implementation Details
 
 ### Environment Configuration
-The backend API URL should not be hardcoded in the application. Create a `.env` file in the `frontend/` directory to store this value.
+The backend API URL should not be hardcoded in the application. Create a `.env` file in the `frontends/mobile/` directory to store this value.
 
-**`frontend/.env` example:**
+**`frontends/mobile/.env` example:**
 ```
 BACKEND_URL=http://localhost:8000
 ```
