@@ -1,6 +1,6 @@
 # 06. Tools and Integrations
 
-This document describes external tools and integrations available to AI agents working on the Precackle project.
+This document describes external tools and integrations available to AI agents working on the Cackle project.
 
 ## 6.1. Overview
 

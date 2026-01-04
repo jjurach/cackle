@@ -2,7 +2,7 @@
 
 ## 1.1. Core Objective
 
-The Precackle project is a mobile application designed to capture a user's voice, transcribe it into text, and provide a response from a backend service. The core interaction loop is:
+The Cackle project is a mobile application designed to capture a user's voice, transcribe it into text, and provide a response from a backend service. The core interaction loop is:
 1.  User presses a button to start recording.
 2.  The application listens and automatically detects when the user has paused speaking.
 3.  The captured audio is transcribed into text directly on the mobile device.

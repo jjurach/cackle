@@ -1,6 +1,6 @@
 # 05. Infrastructure and Deployment Guide
 
-This document describes the cloud infrastructure and deployment process for the Precackle backend.
+This document describes the cloud infrastructure and deployment process for the Cackle backend.
 
 ## 5.1. Overview
 

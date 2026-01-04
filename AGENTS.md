@@ -1,4 +1,4 @@
-# Precackle Project: MANDATORY AI Agent Instructions (Condensed)
+# Cackle Project: MANDATORY AI Agent Instructions (Condensed)
 
 **CRITICAL:** This document contains the essential, non-negotiable rules for all development tasks. You are responsible for knowing and following every rule here. Detailed explanations, full templates, and non-critical best practices are located in the `/docs` directory.
 

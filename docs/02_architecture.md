@@ -1,6 +1,6 @@
 # 02. System Architecture
 
-This document outlines the high-level architecture of the Precackle project, detailing the components and the flow of data between them.
+This document outlines the high-level architecture of the Cackle project, detailing the components and the flow of data between them.
 
 ## 2.1. Component Diagram
 
